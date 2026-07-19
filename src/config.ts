@@ -15,16 +15,16 @@ export const siteConfig = {
 
   // Site URL — set before deployment (e.g., https://example.com)
   // Used for RSS feed and SEO
-  site: 'https://zes-z.github.io/ZesRecipes',
+  site: 'https://zesrecipes.pages.dev',
 
   // HTML lang attribute — affects SEO and accessibility
   lang: 'en',
 
   // Navigation links — displayed in capsule nav bar
   nav: [
-    { title: 'Home', href: '/ZesRecipes/' },
-    { title: 'About', href: '/ZesRecipes/about' },
-    { title: 'Tags', href: '/ZesRecipes/tags' },
+    { title: 'Home', href: '/' },
+    { title: 'About', href: '/about' },
+    { title: 'Tags', href: '/tags' },
   ],
 
   // Social links — leave empty to hide
