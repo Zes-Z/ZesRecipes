@@ -15,8 +15,7 @@ export const siteConfig = {
 
   // Site URL — set before deployment (e.g., https://example.com)
   // Used for RSS feed and SEO
-  site: "https://zes-z.github.io/ZesRecipes",
-  base: "/ZesRecipes/",
+  site: 'https://zes-z.github.io/ZesRecipes/',
 
   // HTML lang attribute — affects SEO and accessibility
   lang: 'en',
