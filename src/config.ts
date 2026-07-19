@@ -31,7 +31,6 @@ export const siteConfig = {
   social: {
     github: 'https://github.com/Zes-Z',
     email: 'zzs234@yeah.net',
-
   },
 
   // Feature toggles
