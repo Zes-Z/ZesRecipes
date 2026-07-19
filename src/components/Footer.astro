@@ -11,6 +11,23 @@ const year = new Date().getFullYear();
     </p>
     <div class="footer-divider"></div>
     <div class="footer-links">
+
+
+
+ {siteConfig.social.email && (
+    <a
+    href={`mailto:${siteConfig.social.email}`}
+    aria-label="Email">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/>
+    </svg>
+  </a>
+)}
       {siteConfig.social.github && (
         <a href={siteConfig.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -26,6 +43,9 @@ const year = new Date().getFullYear();
           </svg>
         </a>
       )}
+
+
+
     </div>
   </div>
 </footer>

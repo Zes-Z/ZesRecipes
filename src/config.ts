@@ -1,9 +1,11 @@
 // Site Configuration
 // Centralize all settings here, do not hardcode in components.
 
+import type { email } from "astro:schema";
+
 export const siteConfig = {
   // Site title — displayed in nav, footer, and page titles
-  title: 'Zes recipes',
+  title: 'Zes Recipes',
 
   // Site description — used in meta tags and hero section
   description: '今天你想吃些什么?',
@@ -27,7 +29,9 @@ export const siteConfig = {
 
   // Social links — leave empty to hide
   social: {
-    github: 'https://github.com/wangjacks/capsule-x',
+    github: 'https://github.com/Zes-Z',
+    email: 'zzs234@yeah.net',
+
   },
 
   // Feature toggles
